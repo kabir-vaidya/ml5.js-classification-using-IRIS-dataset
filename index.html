@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Getting Started with ml5.js</title>
+    <!-- ml5 -->
+    <!-- <script type="text/javascript" src="data.json"></script> -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Welcome!</h1>
+    <h2>In this project we use the ml5 library to classifiy iris species' using sepal and petal data.</h2>
+    <h3>Enter the values below to guess the iris species</h3>
+<!--     <form name='valform' method='POST' action="#"> -->
+    Sepal Length:<br>
+    <input class="sl" type="text" name="sepal_length">
+    <br><br>
+    Sepal Width:<br>
+    <input class="sw" type="text" name="sepal_width">
+    <br><br>
+    Petal Length:<br>
+    <input class="pl" type="text" name="petal_length">
+    <br><br>
+    Petal Width:<br>
+    <input class="pw" type="text" name="petal_width">
+    <br>
+    <input class='submit' onclick = 'submit()' type="button" value="Submit">
+    <!-- </form>  -->
+    <script src="app.js"></script>
+  </body>
+</html>
